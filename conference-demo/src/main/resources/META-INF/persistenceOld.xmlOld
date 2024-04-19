@@ -1,3 +1,4 @@
+<!-- need no more with Spring JPA .. WE CAN DELETE ALSO THE META-INF FOLDER
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence xmlns="http://java.sun.com/xml/ns/persistence"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -16,3 +17,4 @@
 	</persistence-unit>
 
 </persistence>
+-->

@@ -1,3 +1,4 @@
+/* no more need with spring data JPA --> put all in application.properties.xml
 package com.pluralsight.conferencedemo.config;
 
 import java.util.HashMap;
@@ -24,9 +25,9 @@ public class JpaConfiguration {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 
 		dataSource.setDriverClassName("org.postgresql.Driver");
-		dataSource.setUrl("jdbc:postgresql:conference_app");
-		dataSource.setUsername("root");
-		dataSource.setPassword("");
+		dataSource.setUrl("jdbc:postgresql://localhost:5432/conference_app");
+		dataSource.setUsername("postgres");
+		dataSource.setPassword("pgadmin");
 
 		return dataSource;
 	}
@@ -63,3 +64,4 @@ public class JpaConfiguration {
 	}
 
 }
+*/
